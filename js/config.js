@@ -9,12 +9,12 @@ var path_color = {
 
 var iconStopPosition = L.icon({
     iconUrl: './img/stop_position_32.png',
-    iconSize: [12, 12]
+    iconSize: [10, 10]
 });
 
 var platformIcon = L.icon({
     iconUrl: './img/platform_14.png',
-    iconSize: [14, 14]
+    iconSize: [13, 13]
 });
 
 var mapPadding = {
@@ -24,7 +24,7 @@ var mapPadding = {
 var defaultOptions = {
     "otv-opapi": "//overpass-api.de/api",
     "otv-read_intro": false,
-    "otv-tiles": "osmfr",
+    "otv-tiles": "osm",
 };
 
 var tiles = {
@@ -52,5 +52,5 @@ var defaultStatusMessages = {
 
 var defaultMapView = {
     coords: [45.75840835, 4.8956966],
-    zoom: 13
+    zoom: 16
 }
